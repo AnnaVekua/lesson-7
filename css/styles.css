@@ -6,9 +6,12 @@
     margin-bottom: 207px;
     justify-content: space-between;
     
+    
 }
 .navigation {
    display: flex;
+   justify-content: space-between;
+   
 }
 .nav-li {
     font-family:'Lato', sans-serif;
@@ -18,9 +21,11 @@
 }
 .container-block1 {
     display: flex;
+    margin-bottom: 78px;
 }
 .left-block {
     width: 600px;
+    margin-left: 132px;
 }
 .title-h6 {
     font-family: 'Lato', sans-serif;
@@ -56,17 +61,25 @@
    width: 1169px;
    margin: 0 auto;
 }
+.section2-title {
+    text-align: center;
+}
+
 .six-blocks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
+    
+    
+    
 }
 .div-1 {
     width: 370px;
     height: 451px;
     background-color: #FBBA77;
-    margin-left: 29px;
     margin-bottom: 60px;
+    align-items: center;
 }
 .div-2 {
     width: 370px;
@@ -78,8 +91,8 @@
     width: 370px;
     height: 451px;
     background-color:#69529F;
-    margin-bottom: 60px;
 }
+    
 .div-4 {
     width: 370px;
     height: 451px;
@@ -96,4 +109,61 @@
     width: 370px;
     height: 451px;
     background-color:#FF8088;
+}
+
+.read-more {
+    width: 131px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: 
+    
+}
+
+.readmoretext {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: medium; 
+    color: #FFFFFF;
+    text-align: center;
+}
+.class-h5 {
+    font-family:'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+    
+}
+.class-h3 {
+    font-family:'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: regular;
+    color: #5A5454;
+    padding-top: 17px;
+    padding-bottom: 21px;
+}
+
+.secondsectiontext {
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+    color: #747474;
+    margin-bottom: 67px;
+}
+.titles {
+    font-family:'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: regular;
+    color: #FFFFFF;
+    text-align: center;
+}
+.sixdivs-text {
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+}
+.blocks-image {
+    
 }
