@@ -4,39 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Home Page</title>
 </head>
 <body>
-    <header class="fixed-container">
+    <header 
+        <div class="fixed-container">
         <a class="logo-image" href="index.html" class="logo">
             <img src="images/logo.svg" alt="logo-image">
         </a>
         <nav class="navigation">
             <ul>
-                <li class="nav-li">HOME</li>
-                <li class="nav-li">PORTFOLIO</li>
-                <li class="nav-li">ABOUT</li>
-                <li class="nav-li">BLOG</li>
-                <li class="nav-li">CONTACT</li>
+                <li 
+                  <a class="nav-li" href="#">HOME</a>
+                </li>
+                <li 
+                  <a class="nav-li" href="#">PORTFOLIO</a>
+                </li>
+                <li
+                  <a class="nav-li" href="#">ABOUT</a>
+                </li>
+                <li 
+                  <a class="nav-li" href="#">BLOG</a>
+                </li>
+                <li
+                  <a class="nav-li" href="#">CONTACT</a>
+                </li>
             </ul>
+        </nav>
+        </div>
+    </header> 
             <section class="container-block1">
                    <div class="leftblock">
+                    <div class="leftblock-text">                      
                        <h6 class="title-h6">
                         Provide You best 
                         Best Ui Service</h6>
                         <p class="class-p">Mobile App Design and Development Studio. You can hire us</p>
+                    </div>
                         <div class="wave-me">
-
+                          <p class="waveme-text">wave me</p>
+                          <img src="images/waving-hand.png" alt="wavinghand">
                         </div>
                    </div>
                    <div class="rightblock">
                     <img src="images/image.svg" alt="">
                    </div>
             </section>
-            <section class="section2">
-                <h5 class="claas-h5">OUR SERVICES</h5>
-                <h3 class="class-h3">We Provide Best Quality Service</h3>
-                <p class="secondsectiontext">Our commitment to quality ensures that your applications get the best UI design possible. UI/UX design is more than just pixels and animations, but the entire application experience.</p>
+            <section 
+            <div class="section2">
+                <div class="section2-title"
+                    <h5 class="claas-h5">OUR SERVICES</h5>
+                    <h3 class="class-h3">We Provide Best Quality Service</h3>
+                    <p class="secondsectiontext">Our commitment to quality ensures that your applications get the best UI design possible. UI/UX design is more than just pixels and animations, but the entire application experience.</p>
+            </div>
                 <div class="div-1">
                     <img src="images/001-data.png" alt="image">
                     <h3 class="titles">Website Ui</h3>
@@ -85,9 +109,7 @@
 
                     </div>
                 </div>
+            </div>
             </section>
-        </nav>
-    </header>
-
-</body>
+    </body>
 </html>
