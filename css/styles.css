@@ -53,6 +53,47 @@
     align-items: center;
 }
 .section2 {
+   width: 1169px;
+   margin: 0 auto;
+}
+.six-blocks {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.div-1 {
+    width: 370px;
+    height: 451px;
+    background-color: #FBBA77;
+    margin-left: 29px;
+    margin-bottom: 60px;
+}
+.div-2 {
+    width: 370px;
+    height: 451px;
+    background-color:#41EAE3;
+
+}
+.div-3 {
+    width: 370px;
+    height: 451px;
+    background-color:#69529F;
+    margin-bottom: 60px;
+}
+.div-4 {
+    width: 370px;
+    height: 451px;
+    background-color:#4386D2;
+    
+}
+.div-5 {
+    width: 370px;
+    height: 451px;
+    background-color:#A5A2F6;
+    
+}
+.div-6 {
+    width: 370px;
+    height: 451px;
+    background-color:#FF8088;
 }
