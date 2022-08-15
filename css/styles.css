@@ -8,7 +8,11 @@
     
     
 }
-.navigation {
+.navigation{
+    width: 700px;
+
+}
+.navigation ul {
    display: flex;
    justify-content: space-between;
    
@@ -17,6 +21,7 @@
     font-family:'Lato', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    color: #3D37F1;
     
 }
 .container-block1 {
@@ -69,10 +74,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
-    
-    
-    
+}
+.blocks-image {
+    width: 100px;
+    justify-content: center;
+    flex-direction: column;
+}
+/* ფოტო ვერანაირად ვერ მოვათავსე შუაში*/
+.blocks-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .div-1 {
     width: 370px;
@@ -80,6 +93,7 @@
     background-color: #FBBA77;
     margin-bottom: 60px;
     align-items: center;
+    
 }
 .div-2 {
     width: 370px;
@@ -114,10 +128,15 @@
 .read-more {
     width: 131px;
     height: 45px;
+    border: 2px;
     border-radius: 23px;
     border-color: #FFFFFF;
     padding-top: 11px;
+    justify-content: center;
+    align-items: center;
 }
+/* ჩარჩოს პარამეტრები მითითებული მაქვს, ფერიც, მაგრამ მაინც არ ჩანს*/ 
+
 
 .readmoretext {
     font-family: 'Lato', sans-serif;
@@ -125,8 +144,7 @@
     font-weight: medium; 
     color: #FFFFFF;
     text-align: center;
-
-}
+} 
 .class-h5 {
     font-family:'Lato', sans-serif;
     font-size: 20px;
@@ -164,7 +182,4 @@
     color: #FFFFFF;
     text-align: center;
     vertical-align: middle;
-}
-.blocks-image {
-    
 }
