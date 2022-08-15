@@ -115,8 +115,8 @@
     width: 131px;
     height: 45px;
     border-radius: 23px;
-    background-color: 
-    
+    border-color: #FFFFFF;
+    padding-top: 11px;
 }
 
 .readmoretext {
@@ -125,6 +125,7 @@
     font-weight: medium; 
     color: #FFFFFF;
     text-align: center;
+
 }
 .class-h5 {
     font-family:'Lato', sans-serif;
